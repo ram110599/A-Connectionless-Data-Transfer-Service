@@ -37,6 +37,12 @@ password: abhi12345
 Show databases: show databases;
 USE databases: use databasename;
 For Schema of the table: SHOW COLUMNS FROM table_name;
+For inserting into table: 
+insert into sub_info (pub_ip, pub_port, sub_ip, sub_port) values('172.21.13.76',1985, '172.21.4.237', 6700);
+insert into sub_info (pub_ip, pub_port, sub_ip, sub_port) values('172.26.15.67',6566, '172.26.15.67', 6700);
+insert into sub_info (pub_ip, pub_port, sub_ip, sub_port) values('172.26.15.67',6566, '172.26.15.67', 6701);
+insert into sub_info (pub_ip, pub_port, sub_ip, sub_port) values('172.26.15.67',6566, '172.26.15.67', 6702);
+select * from sub_info;
 --------------------------------------
 
 Server Port is 9876
