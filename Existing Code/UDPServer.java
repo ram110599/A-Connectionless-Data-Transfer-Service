@@ -281,7 +281,8 @@ class UDPServer {
       // Making the database connection using jdbc
       String url = "jdbc:mysql://localhost:3306/publisher_subscriber";
       String user = "root";
-      String password = "abhi12345";
+      // Add your password here
+      String password = "******";
 
       Connection conn = DriverManager.getConnection(url, user, password);
       System.out.println("Connection Established with database.");
