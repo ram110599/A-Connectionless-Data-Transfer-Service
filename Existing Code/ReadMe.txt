@@ -33,7 +33,7 @@ For Running:
 For opening mysql from terminal
 
 Command: mysql -u root -p
-password: abhi12345
+password: *********
 Show databases: show databases;
 USE databases: use databasename;
 For Schema of the table: SHOW COLUMNS FROM table_name;
